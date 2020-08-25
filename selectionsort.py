@@ -18,3 +18,7 @@ def selectionSort(arr): #Sorts an array
 
 
 print(selectionSort([5, 3, 6, 2, 10, 23, 78, 89, 12, 4, 6, 89, 2, 57, 84, 35, 67, 78, 23, 56, 7889]))
+
+
+
+

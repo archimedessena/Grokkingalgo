@@ -21,25 +21,3 @@ print(binary_search(my_list, 95))
 
 
 
-
-
-
-#Binary search algorithm
-def binary_searchone(arr, items):
-    small = 0
-    largest = len(arr) - 1
-    while small <= largest:
-        midd = (small + largest)
-        guss = arr[midd]
-        if guss == items:
-            return midd
-        if guss > items:
-            largest = midd - 1
-        else:
-            low + 1
-    return None
-
-my_list = [100, 99, 98, 97, 96, 95]
-
-print(binary_searchone(my_list, 95))        
-
